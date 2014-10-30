@@ -17,3 +17,6 @@
 
 # IntelliJ Files #
 /LambdaLab/out/
+
+# Eclipse Files #
+/LambdaLab/bin/
