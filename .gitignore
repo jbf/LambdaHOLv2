@@ -20,3 +20,6 @@
 
 # Eclipse Files #
 /LambdaLab/bin/
+
+# Mac #
+.DS_Store
