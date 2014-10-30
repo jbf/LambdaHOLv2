@@ -1,0 +1,144 @@
+<html>
+<head>
+<style>
+.hint {
+	color: white;
+	 border-style: solid;
+	 border-color: black;
+    border-width: 1px;
+}
+</style>
+</head>
+<body>
+	<h3>ex01_accumulateFirstLetters</h3>
+    Hint 1: <span class="hint">Use Collection.removeIf().</span>
+    
+    
+ 	<h3>ex02_removeOddLengthWords</h3>
+    Hint 1: <span class="hint">Use List.replaceAll().</span>
+
+    
+ <h3>ex03_upcaseAllWords</h3>
+    Hint 1: <span class="hint">Use Map.forEach().</span>
+
+    
+ <h3>ex04_stringifyMap</h3>
+    Hint 1: <span class="hint">Use Map.merge() within Iterable.forEach().</span>
+
+    
+ <h3>ex05_mapOfStringLengths</h3>
+    Hint 1: <span class="hint">Use filter() and map().</span>
+    <br>Hint 2: <span class="hint">Use collect() to create the result list.</span>
+
+
+ <h3>ex06_upcaseOddLengthWords</h3>
+    Hint 1: <span class="hint">Use Stream.skip() and Stream.limit().</span>
+    <br>Hint 2: <span class="hint">Use Collectors.joining().</span>
+
+
+ <h3>ex07_joinStreamRange</h3>
+    Hint 1: <span class="hint">Use BufferedReader.lines() to get a stream of lines.</span>
+    <br>Hint 2: <span class="hint">Use Stream.count().</span>
+
+
+ <h3>ex08_countLinesInFile()</h3>
+    Hint 1: <span class="hint">Use Stream.mapToInt() to convert to IntStream.</span>
+    <br>Hint 2: <span class="hint">Look at java.util.OptionalInt to get the result.</span>
+
+
+ <h3>ex09_findLengthOfLongestLine</h3>
+    Hint 1: <span class="hint">Use Stream.max() with a Comparator.</span>
+    <br>Hint 2: <span class="hint">Use static methods on Comparator to help create a Comparator instance.</span>
+
+
+ 	<h3>ex10_findLongestLine</h3>
+    Hint 1: <span class="hint">Instead of a stream of words (Strings), run an IntStream of positions.</span>
+    
+    
+	<h3>ex11_selectByLengthAndPosition</h3>
+    Hint 1: <span class="hint">Run an IntStream of list positions (indexes).</span>
+    <br>Hint 2: <span class="hint">Deal with boxed Integers either by casting or by using mapToObj().</span>
+    
+
+ 	<h3>ex12_listDifference</h3>
+    Hint 1: <span class="hint">Use Stream.flatMap().</span>
+    <br>Hint 2: <span class="hint">Pay attention to the return type of String.chars() and boxing conversion.</span>
+    
+
+ <h3>ex14_listOfAllWords</h3>
+    Hint 1: <span class="hint">Use Stream.flatMap().</span>
+    
+
+ <h3>ex15_longLowerCaseSortedWords</h3>
+    Hint 1: <span class="hint">Use Stream.sorted().</span>
+    
+    
+<h3>ex16_longLowerCaseReverseSortedWords</h3>
+    Hint 1: <span class="hint">Use Comparator.reverseOrder().</span>
+
+    
+	<h3>ex17_sortedLowerCaseDistinctByLengthThenAlphabetically</h3>
+    Hint 1: <span class="hint">Use Stream.distinct().</span>
+    Hint 1: <span class="hint">Use Comparator.theComparing().</span>
+
+    
+	<h3>ex18_countTotalAndDistinctWords</h3>
+    Hint 1: <span class="hint">Use Stream.peek().</span>
+    <br>Hint 2: <span class="hint">Use LongAdder or AtomicLong/AtomicInteger to allow peek() to have side effects.</span>
+    
+    
+<h3>ex19_bigFactorial</h3>
+    Hint 1: <span class="hint">Use LongStream and reduction.</span>
+    
+    
+<h3>ex20_getLastWord</h3>
+    Hint 1: <span class="hint">Use Stream.reduce().</span>
+    
+
+<h3>ex21_mapLengthToWordList</h3>
+    Hint 1: <span class="hint">Use Collectors.groupingBy().</span>
+
+    
+<h3>ex22_mapLengthToWordCount</h3>
+    Hint 1: <span class="hint">Use the "downstream" overload of Collectors.groupingBy().</span>
+    <br>Hint 2: <span class="hint">Use Collectors.counting().</span>
+
+    
+<h3>ex23_wordFrequencies</h3>
+    Hint 1: <span class="hint">For Collectors.groupingBy(), consider that each word needs to
+     be categorized by itself.</span>
+    <br>Hint 2: <span class="hint">For Collectors.toMap(), the first occurrence of a word should be mapped to 1.</span>
+
+    
+<h3>ex24_nestedMaps</h3>
+    Hint 1: <span class="hint">The nested map structure that's the desired is the result of applying
+     a "downstream" collector that's the same operation as the first-level collector.</span>
+    <br>Hint 2: <span class="hint">Both collection operations are Collectors.groupingBy().</span>
+
+    
+<h3>ex25_insertBeginningAndEnd</h3>
+    Hint 1: <span class="hint">The combiner function must take its second argument and merge
+     it into the first argument, mutating the first argument.</span>
+    <br>Hint 2: <span class="hint">The second argument to the combiner function happens AFTER the first
+     argument in encounter order, so the second argument needs to be split
+     in half and prepended/appended to the first argument.</span>
+
+<h3>ex26_denormalizeMap</h3>
+    Hint 1: <span class="hint">There are several ways to approach this. You could use a stream of map keys,
+     a stream of map entries, or nested forEach() methods.</span>
+    <br>Hint 2: <span class="hint">If you use streams, consider using Stream.flatMap().</span>
+    
+    
+<h3>ex27_parallelVsSequential</h3>
+    Hint 1: <span class="hint">By its very nature, you need to do something with side-effects within Stream.peek().</span>
+    <br>Hint 2: <span class="hint">The sequential and parallel streams have the same contents, but they will
+     probably end up processing the elements in a different order, even though
+     the output list is collected in the proper order (encounter order).</span>
+    <br>Hint 3: <span class="hint">Consider a thread-safe side-effect-supporting structure such as LongAdder.
+     Note that LongAdder's accumulation function must be order-dependent for it
+     to detect parallelism.</span>
+
+    
+    
+</body>
+</html>

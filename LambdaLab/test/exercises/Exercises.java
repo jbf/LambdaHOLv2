@@ -69,11 +69,7 @@ public class Exercises {
         
         assertEquals("abcdef", result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Iterable.forEach().
-    // </editor-fold>
-    
+   
     
     /**
      * Remove the words that have odd lengths from the list.
@@ -87,10 +83,6 @@ public class Exercises {
         
         assertEquals("[alfa, echo]", list.toString());
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Collection.removeIf().
-    // </editor-fold>
     
     
     /**
@@ -105,10 +97,6 @@ public class Exercises {
         
         assertEquals("[ALFA, BRAVO, CHARLIE, DELTA, ECHO, FOXTROT]", list.toString());
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use List.replaceAll().
-    // </editor-fold>
 
     
     /**
@@ -126,10 +114,6 @@ public class Exercises {
         
         assertEquals("a1b2c3", result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Map.forEach().
-    // </editor-fold>
 
     
     /**
@@ -148,10 +132,6 @@ public class Exercises {
         
         assertEquals("{a=23, b=20, c=26}", result.toString());
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Map.merge() within Iterable.forEach().
-    // </editor-fold>
 
     
 // ========================================================
@@ -172,14 +152,6 @@ public class Exercises {
         
         assertEquals("[BRAVO, CHARLIE, DELTA, FOXTROT]", result.toString());
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use filter() and map().
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Use collect() to create the result list.
-    // </editor-fold>
 
 
     /**
@@ -195,14 +167,6 @@ public class Exercises {
         
         assertEquals("r,h,e,c", result);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.skip() and Stream.limit().
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Use Collectors.joining().
-    // </editor-fold>
 
 
     /**
@@ -218,14 +182,6 @@ public class Exercises {
         
         assertEquals(14, count);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use BufferedReader.lines() to get a stream of lines.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.count().
-    // </editor-fold>
 
 
     /**
@@ -239,14 +195,6 @@ public class Exercises {
         
         assertEquals(53, longestLength);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.mapToInt() to convert to IntStream.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Look at java.util.OptionalInt to get the result.
-    // </editor-fold>
 
 
     /**
@@ -260,14 +208,6 @@ public class Exercises {
         
         assertEquals("Feed'st thy light's flame with self-substantial fuel,", longest);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.max() with a Comparator.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Use static methods on Comparator to help create a Comparator instance.
-    // </editor-fold>
 
 
     /**
@@ -283,10 +223,6 @@ public class Exercises {
         
         assertEquals("[alfa, bravo, charlie, delta, foxtrot]", result.toString());
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Instead of a stream of words (Strings), run an IntStream of positions.
-    // </editor-fold>
     
     
     /**
@@ -303,14 +239,6 @@ public class Exercises {
         
         assertEquals("[1, -6, 3, -7, 3, 1, 1, -2, 3, -5]", result.toString());
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Run an IntStream of list positions (indexes).
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Deal with boxed Integers either by casting or by using mapToObj().
-    // </editor-fold>
     
 
 // ========================================================
@@ -330,14 +258,6 @@ public class Exercises {
         assertEquals("[a, l, f, a, b, r, a, v, o, c, h, a, r, l, i, e]", result.toString());
         assertTrue(result.stream().allMatch(x -> x instanceof Character));
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.flatMap().
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Pay attention to the return type of String.chars() and boxing conversion.
-    // </editor-fold>
     
 
     /**
@@ -369,10 +289,6 @@ public class Exercises {
                 "To", "eat", "the", "world's", "due", "by", "the", "grave", "and", "thee"),
             output);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.flatMap().
-    // </editor-fold>
     
 
     /**
@@ -391,10 +307,6 @@ public class Exercises {
                 "increase", "niggarding", "ornament", "substantial"),
             output);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.sorted().
-    // </editor-fold>
     
     
     /**
@@ -414,10 +326,6 @@ public class Exercises {
                 "creatures", "contracted", "beauty's", "abundance"),
             result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Comparator.reverseOrder().
-    // </editor-fold>
 
     
     /**
@@ -447,14 +355,6 @@ public class Exercises {
                 "substantial"),
             result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.distinct().
-    // </editor-fold>
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Comparator.theComparing().
-    // </editor-fold>
 
     
     /**
@@ -469,14 +369,6 @@ public class Exercises {
         assertEquals("distinct count", 81, distinctCount);
         assertEquals("total count", 107, totalCount);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.peek().
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Use LongAdder or AtomicLong/AtomicInteger to allow peek() to have side effects.
-    // </editor-fold>
     
     
 // ========================================================
@@ -494,10 +386,6 @@ public class Exercises {
                         
         assertEquals(new BigInteger("51090942171709440000"), result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use LongStream and reduction.
-    // </editor-fold>
     
     
     /**
@@ -511,10 +399,6 @@ public class Exercises {
         
         assertEquals("thee", result);
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Stream.reduce().
-    // </editor-fold>
     
 
     /**
@@ -536,10 +420,6 @@ public class Exercises {
         assertEquals(Arrays.asList("substantial"), result.get(11));
         assertFalse(result.containsKey(12));
     }
-    // Hint:
-    // <editor-fold defaultstate="collapsed">
-    // Use Collectors.groupingBy().
-    // </editor-fold>
 
     
     /**
@@ -571,14 +451,6 @@ public class Exercises {
         assertEquals("min key",  1, stats.getMin());
         assertEquals("max key", 11, stats.getMax());
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // Use the "downstream" overload of Collectors.groupingBy().
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Use Collectors.counting().
-    // </editor-fold>
 
     
     /**
@@ -602,15 +474,6 @@ public class Exercises {
         assertEquals(3L, (long)result.get("self"));
         assertFalse(result.containsKey("lambda"));
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // For Collectors.groupingBy(), consider that each word needs to
-    // be categorized by itself.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // For Collectors.toMap(), the first occurrence of a word should be mapped to 1.
-    // </editor-fold>
 
     
     /**
@@ -640,15 +503,6 @@ public class Exercises {
             result.get("t").get(3).toString());
         assertEquals("[where, waste, world]", result.get("w").get(5).toString());
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // The nested map structure that's the desired is the result of applying
-    // a "downstream" collector that's the same operation as the first-level collector.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // Both collection operations are Collectors.groupingBy().
-    // </editor-fold>
 
     
     /**
@@ -669,17 +523,6 @@ public class Exercises {
         
         assertEquals("tsrqponmlkjihgfedcbaabcdefghijklmnopqrst", result);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // The combiner function must take its second argument and merge
-    // it into the first argument, mutating the first argument.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // The second argument to the combiner function happens AFTER the first
-    // argument in encounter order, so the second argument needs to be split
-    // in half and prepended/appended to the first argument.
-    // </editor-fold>
 
     
 // ========================================================
@@ -732,15 +575,6 @@ public class Exercises {
         assertTrue(result.contains(new Animal("scorpion", 10)));
         assertTrue(result.contains(new Animal("millipede", 750)));
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // There are several ways to approach this. You could use a stream of map keys,
-    // a stream of map entries, or nested forEach() methods.
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // If you use streams, consider using Stream.flatMap().
-    // </editor-fold>
     
     
     /**
@@ -775,22 +609,6 @@ public class Exercises {
         assertFalse(stream1isParallel);
         assertTrue(stream2isParallel);
     }
-    // Hint 1:
-    // <editor-fold defaultstate="collapsed">
-    // By its very nature, you need to do something with side-effects within Stream.peek().
-    // </editor-fold>
-    // Hint 2:
-    // <editor-fold defaultstate="collapsed">
-    // The sequential and parallel streams have the same contents, but they will
-    // probably end up processing the elements in a different order, even though
-    // the output list is collected in the proper order (encounter order).
-    // </editor-fold>
-    // Hint 3:
-    // <editor-fold defaultstate="collapsed">
-    // Consider a thread-safe side-effect-supporting structure such as LongAdder.
-    // Note that LongAdder's accumulation function must be order-dependent for it
-    // to detect parallelism.
-    // </editor-fold>
 
     
 // ========================================================
