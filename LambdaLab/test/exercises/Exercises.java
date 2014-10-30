@@ -687,6 +687,18 @@ public class Exercises {
 // ========================================================
 
     
+    class Animal {
+        final String name; final int legs;
+        Animal(String s, int i) { name = s; this.legs = i; }
+        @Override public boolean equals(Object obj) {
+            if (! (obj instanceof Animal)) return false;
+            Animal other = (Animal)obj;
+            return this.name.equals(other.name) && this.legs == other.legs;
+        }
+        @Override public int hashCode() { return name.hashCode() ^ legs; }
+        @Override public String toString() { return String.format("(%s,%d)", name, legs); }
+    }
+
     /**
      * Denormalize this map. The input is a map whose keys are the number of legs of an animal
      * and whose values are lists of names of animals. Run through the map and generate a
@@ -702,17 +714,6 @@ public class Exercises {
         input.put(10, Arrays.asList("crab", "lobster", "scorpion"));
         input.put(750, Arrays.asList("millipede"));
         
-        class Animal {
-            final String name; final int legs;
-            Animal(String s, int i) { name = s; this.legs = i; }
-            @Override public boolean equals(Object obj) {
-                if (! (obj instanceof Animal)) return false;
-                Animal other = (Animal)obj;
-                return this.name.equals(other.name) && this.legs == other.legs;
-            }
-            @Override public int hashCode() { return name.hashCode() ^ legs; }
-            @Override public String toString() { return String.format("(%s,%d)", name, legs); }
-        }
         
         List<Animal> result = null; // TODO
         

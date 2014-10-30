@@ -19,6 +19,18 @@ package solutions;
  * is located at the root of this NetBeans project.
  */
 
+import static java.util.Comparator.comparingInt;
+import static java.util.Comparator.naturalOrder;
+import static java.util.Comparator.reverseOrder;
+import static java.util.stream.Collectors.counting;
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toMap;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.math.BigInteger;
@@ -33,35 +45,19 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.function.Function;
 import java.util.function.IntConsumer;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
+import java.util.stream.LongStream;
 import java.util.stream.Stream;
 
 import org.junit.After;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
-
 //BEGINREMOVE
-
-import java.util.concurrent.atomic.LongAdder;
 import java.util.concurrent.atomic.LongAccumulator;
-import java.util.function.Function;
-import java.util.stream.LongStream;
-
-import static java.util.Comparator.comparingInt;
-import static java.util.Comparator.naturalOrder;
-import static java.util.Comparator.reverseOrder;
-
-import static java.util.stream.Collectors.counting;
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.joining;
-import static java.util.stream.Collectors.toList;
+import java.util.concurrent.atomic.LongAdder;
 
 //ENDREMOVE
 
@@ -417,7 +413,7 @@ public class Exercises {
         //BEGINREMOVE
         List<Character> result =
             input.stream()
-                .flatMap(word -> word.chars().mapToObj(i -> (char)i))
+                .flatMap(word -> word.chars().mapToObj((int i) -> (char)i))
                 .collect(toList());
         //ENDREMOVE
         
@@ -766,12 +762,12 @@ public class Exercises {
 
             // Alternative solution using toMap(): 
 
-            // Map<String, Long> map =
-            //     reader.lines()
-            //           .flatMap(line -> Stream.of(line.split(REGEXP)))
-            //           .collect(toMap(Function.identity(),
-            //                          w -> 1L,
-            //                          Long::sum));
+//             Map<String, Long> result =
+//                 reader.lines()
+//                       .flatMap(line -> Stream.of(line.split(REGEXP)))
+//                       .collect(toMap(Function.identity(),
+//                                      w -> 1L,
+//                                      Long::sum));
         //ENDREMOVE
         
         assertEquals(2L, (long)result.get("tender"));
@@ -886,6 +882,18 @@ public class Exercises {
 // ========================================================
 
     
+    class Animal {
+        final String name; final int legs;
+        Animal(String s, int i) { name = s; this.legs = i; }
+        @Override public boolean equals(Object obj) {
+            if (! (obj instanceof Animal)) return false;
+            Animal other = (Animal)obj;
+            return this.name.equals(other.name) && this.legs == other.legs;
+        }
+        @Override public int hashCode() { return name.hashCode() ^ legs; }
+        @Override public String toString() { return String.format("(%s,%d)", name, legs); }
+    }
+
     /**
      * Denormalize this map. The input is a map whose keys are the number of legs of an animal
      * and whose values are lists of names of animals. Run through the map and generate a
@@ -901,17 +909,6 @@ public class Exercises {
         input.put(10, Arrays.asList("crab", "lobster", "scorpion"));
         input.put(750, Arrays.asList("millipede"));
         
-        class Animal {
-            final String name; final int legs;
-            Animal(String s, int i) { name = s; this.legs = i; }
-            @Override public boolean equals(Object obj) {
-                if (! (obj instanceof Animal)) return false;
-                Animal other = (Animal)obj;
-                return this.name.equals(other.name) && this.legs == other.legs;
-            }
-            @Override public int hashCode() { return name.hashCode() ^ legs; }
-            @Override public String toString() { return String.format("(%s,%d)", name, legs); }
-        }
         
         //UNCOMMENT//List<Animal> result = null; // TODO
         //BEGINREMOVE
@@ -919,7 +916,7 @@ public class Exercises {
 //        List<Animal> result =
 //            input.keySet().stream()
 //                .flatMap(legs -> input.get(legs).stream()
-//                                     .map(name -> new Animal(name, legs)))
+//                                     .map((String name) -> new Animal(name, legs)))
 //                .collect(toList());
         
         // Alternative solution: stream over map entries instead of map keys
@@ -927,7 +924,7 @@ public class Exercises {
         //List<Animal> result =
         //    input.entrySet().stream()
         //        .flatMap(entry -> entry.getValue().stream()
-        //                              .map(name -> new Animal(name, entry.getKey())))
+        //                              .map((String name) -> new Animal(name, entry.getKey())))
         //        .collect(toList());
         
         List<Animal> result = new ArrayList<>();
