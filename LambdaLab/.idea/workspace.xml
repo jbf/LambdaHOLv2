@@ -54,8 +54,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -63,56 +63,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Exercises.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/exercises/Exercises.java">
+      <file leaf-file-name="DateTimeExercises.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/solutions/DateTimeExercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="10455">
-              <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.5985401" vertical-offset="1254" max-vertical-offset="2895">
+              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
               <folding>
-                <element signature="e#2284#2325#0" expanded="false" />
-                <element signature="e#2791#2832#0" expanded="false" />
-                <element signature="e#3335#3376#0" expanded="false" />
-                <element signature="e#3887#3928#0" expanded="false" />
-                <element signature="e#4594#4635#0" expanded="false" />
-                <element signature="e#5366#5407#0" expanded="false" />
-                <element signature="e#5480#5521#0" expanded="false" />
-                <element signature="e#6058#6099#0" expanded="false" />
-                <element signature="e#6186#6227#0" expanded="false" />
-                <element signature="e#6670#6711#0" expanded="false" />
-                <element signature="e#6813#6854#0" expanded="false" />
-                <element signature="e#7219#7260#0" expanded="false" />
-                <element signature="e#7356#7397#0" expanded="false" />
-                <element signature="e#7814#7855#0" expanded="false" />
-                <element signature="e#7940#7981#0" expanded="false" />
-                <element signature="e#8628#8669#0" expanded="false" />
-                <element signature="e#9354#9395#0" expanded="false" />
-                <element signature="e#9490#9531#0" expanded="false" />
-                <element signature="e#10266#10307#0" expanded="false" />
-                <element signature="e#10378#10419#0" expanded="false" />
-                <element signature="e#12118#12159#0" expanded="false" />
-                <element signature="e#12803#12844#0" expanded="false" />
-                <element signature="e#13561#13602#0" expanded="false" />
-                <element signature="e#15077#15118#0" expanded="false" />
-                <element signature="e#15188#15229#0" expanded="false" />
-                <element signature="e#15728#15769#0" expanded="false" />
-                <element signature="e#15837#15878#0" expanded="false" />
-                <element signature="e#16556#16597#0" expanded="false" />
-                <element signature="e#16949#16990#0" expanded="false" />
-                <element signature="e#18025#18066#0" expanded="false" />
-                <element signature="e#19466#19507#0" expanded="false" />
-                <element signature="e#19614#19655#0" expanded="false" />
-                <element signature="e#20636#20677#0" expanded="false" />
-                <element signature="e#20821#20862#0" expanded="false" />
-                <element signature="e#22417#22458#0" expanded="false" />
-                <element signature="e#22665#22706#0" expanded="false" />
-                <element signature="e#23625#23666#0" expanded="false" />
-                <element signature="e#23841#23882#0" expanded="false" />
-                <element signature="e#26617#26658#0" expanded="false" />
-                <element signature="e#26845#26886#0" expanded="false" />
-                <element signature="e#28492#28533#0" expanded="false" />
-                <element signature="e#28667#28708#0" expanded="false" />
-                <element signature="e#28987#29028#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1262#1303#0" expanded="false" />
+                <element signature="e#1736#1777#0" expanded="false" />
+                <element signature="e#2813#2854#0" expanded="false" />
+                <element signature="e#3988#4004#0" expanded="false" />
+                <element signature="e#4074#4090#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DateTimeFormatter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="10491" max-vertical-offset="30825">
+              <caret line="808" column="27" selection-start-line="808" selection-start-column="27" selection-end-line="808" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Period.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/Period.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11508" max-vertical-offset="14520">
+              <caret line="892" column="29" selection-start-line="892" selection-start-column="29" selection-end-line="892" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Temporal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/temporal/Temporal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="5820">
+              <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,8 +113,8 @@
       <file leaf-file-name="JUnit4TestSuite.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/suite/JUnit4TestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -138,6 +131,8 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/test/exercises/Exercises.java" />
+        <option value="$PROJECT_DIR$/test/exercises/DateTimeExercises.java" />
+        <option value="$PROJECT_DIR$/test/solutions/DateTimeExercises.java" />
       </list>
     </option>
   </component>
@@ -298,7 +293,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -332,8 +326,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LambdaLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LambdaLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="solutions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LambdaLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LambdaLab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -353,14 +384,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.JUnit4TestSuite">
-    <configuration default="false" name="Exercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DateTimeExercises.ex04_msBetweenTimestampsSameTimezone">
+    <configuration default="false" name="DateTimeExercises" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LambdaLab" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="exercises" />
-      <option name="MAIN_CLASS_NAME" value="exercises.Exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.DateTimeExercises" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -405,6 +439,72 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="DateTimeExercises.ex01_ParseJavaReleases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.DateTimeExercises" />
+      <option name="METHOD_NAME" value="ex01_ParseJavaReleases" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DateTimeExercises.ex06_TimeBetweenRelease" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="exercises" />
+      <option name="MAIN_CLASS_NAME" value="exercises.DateTimeExercises" />
+      <option name="METHOD_NAME" value="ex06_TimeBetweenRelease" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DateTimeExercises.ex04_msBetweenTimestampsSameTimezone" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LambdaLab" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="solutions" />
+      <option name="MAIN_CLASS_NAME" value="solutions.DateTimeExercises" />
+      <option name="METHOD_NAME" value="ex04_msBetweenTimestampsSameTimezone" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -417,6 +517,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -444,19 +557,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -493,14 +593,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.Exercises" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DateTimeExercises" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.JUnit4TestSuite" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DateTimeExercises.ex01_ParseJavaReleases" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DateTimeExercises.ex06_TimeBetweenRelease" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DateTimeExercises.ex04_msBetweenTimestampsSameTimezone" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JUnit4TestSuite" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Exercises" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DateTimeExercises.ex04_msBetweenTimestampsSameTimezone" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JUnit4TestSuite" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DateTimeExercises.ex06_TimeBetweenRelease" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DateTimeExercises.ex01_ParseJavaReleases" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DateTimeExercises" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -519,29 +625,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="45" y="22" width="1321" height="746" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24941361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24941361" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24941361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24941361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33022773" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -574,54 +680,19 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/exercises/Exercises.java">
+    <entry file="file://$PROJECT_DIR$/test/exercises/DateTimeExercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10455">
+        <state vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1455">
           <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
           <folding>
-            <element signature="e#2284#2325#0" expanded="false" />
-            <element signature="e#2791#2832#0" expanded="false" />
-            <element signature="e#3335#3376#0" expanded="false" />
-            <element signature="e#3887#3928#0" expanded="false" />
-            <element signature="e#4594#4635#0" expanded="false" />
-            <element signature="e#5366#5407#0" expanded="false" />
-            <element signature="e#5480#5521#0" expanded="false" />
-            <element signature="e#6058#6099#0" expanded="false" />
-            <element signature="e#6186#6227#0" expanded="false" />
-            <element signature="e#6670#6711#0" expanded="false" />
-            <element signature="e#6813#6854#0" expanded="false" />
-            <element signature="e#7219#7260#0" expanded="false" />
-            <element signature="e#7356#7397#0" expanded="false" />
-            <element signature="e#7814#7855#0" expanded="false" />
-            <element signature="e#7940#7981#0" expanded="false" />
-            <element signature="e#8628#8669#0" expanded="false" />
-            <element signature="e#9354#9395#0" expanded="false" />
-            <element signature="e#9490#9531#0" expanded="false" />
-            <element signature="e#10266#10307#0" expanded="false" />
-            <element signature="e#10378#10419#0" expanded="false" />
-            <element signature="e#12118#12159#0" expanded="false" />
-            <element signature="e#12803#12844#0" expanded="false" />
-            <element signature="e#13561#13602#0" expanded="false" />
-            <element signature="e#15077#15118#0" expanded="false" />
-            <element signature="e#15188#15229#0" expanded="false" />
-            <element signature="e#15728#15769#0" expanded="false" />
-            <element signature="e#15837#15878#0" expanded="false" />
-            <element signature="e#16556#16597#0" expanded="false" />
-            <element signature="e#16949#16990#0" expanded="false" />
-            <element signature="e#18025#18066#0" expanded="false" />
-            <element signature="e#19466#19507#0" expanded="false" />
-            <element signature="e#19614#19655#0" expanded="false" />
-            <element signature="e#20636#20677#0" expanded="false" />
-            <element signature="e#20821#20862#0" expanded="false" />
-            <element signature="e#22417#22458#0" expanded="false" />
-            <element signature="e#22665#22706#0" expanded="false" />
-            <element signature="e#23625#23666#0" expanded="false" />
-            <element signature="e#23841#23882#0" expanded="false" />
-            <element signature="e#26617#26658#0" expanded="false" />
-            <element signature="e#26845#26886#0" expanded="false" />
-            <element signature="e#28492#28533#0" expanded="false" />
-            <element signature="e#28667#28708#0" expanded="false" />
-            <element signature="e#28987#29028#0" expanded="false" />
+            <element signature="e#1249#1290#0" expanded="false" />
+            <element signature="e#1660#1701#0" expanded="false" />
+            <element signature="e#2334#2375#0" expanded="false" />
+            <element signature="e#2768#2784#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3502#3518#0" expanded="false" />
+            <element signature="e#3588#3604#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -634,106 +705,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/exercises/Exercises.java">
+    <entry file="file://$PROJECT_DIR$/test/exercises/DateTimeExercises.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="9825" max-vertical-offset="10845">
-          <caret line="739" column="0" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10455">
+          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
           <folding>
-            <element signature="e#2284#2325#0" expanded="false" />
-            <element signature="e#2791#2832#0" expanded="false" />
-            <element signature="e#3335#3376#0" expanded="false" />
-            <element signature="e#3887#3928#0" expanded="false" />
-            <element signature="e#4594#4635#0" expanded="false" />
-            <element signature="e#5366#5407#0" expanded="false" />
-            <element signature="e#5480#5521#0" expanded="false" />
-            <element signature="e#6058#6099#0" expanded="false" />
-            <element signature="e#6186#6227#0" expanded="false" />
-            <element signature="e#6670#6711#0" expanded="false" />
-            <element signature="e#6813#6854#0" expanded="false" />
-            <element signature="e#7219#7260#0" expanded="false" />
-            <element signature="e#7356#7397#0" expanded="false" />
-            <element signature="e#7814#7855#0" expanded="false" />
-            <element signature="e#7940#7981#0" expanded="false" />
-            <element signature="e#8628#8669#0" expanded="false" />
-            <element signature="e#9354#9395#0" expanded="false" />
-            <element signature="e#9490#9531#0" expanded="false" />
-            <element signature="e#10266#10307#0" expanded="false" />
-            <element signature="e#10378#10419#0" expanded="false" />
-            <element signature="e#12118#12159#0" expanded="false" />
-            <element signature="e#12803#12844#0" expanded="false" />
-            <element signature="e#13561#13602#0" expanded="false" />
-            <element signature="e#15077#15118#0" expanded="false" />
-            <element signature="e#15188#15229#0" expanded="false" />
-            <element signature="e#15728#15769#0" expanded="false" />
-            <element signature="e#15837#15878#0" expanded="false" />
-            <element signature="e#16556#16597#0" expanded="false" />
-            <element signature="e#16949#16990#0" expanded="false" />
-            <element signature="e#18025#18066#0" expanded="false" />
-            <element signature="e#19466#19507#0" expanded="false" />
-            <element signature="e#19614#19655#0" expanded="false" />
-            <element signature="e#20636#20677#0" expanded="false" />
-            <element signature="e#20821#20862#0" expanded="false" />
-            <element signature="e#22417#22458#0" expanded="false" />
-            <element signature="e#22665#22706#0" expanded="false" />
-            <element signature="e#23625#23666#0" expanded="false" />
-            <element signature="e#23841#23882#0" expanded="false" />
-            <element signature="e#26617#26658#0" expanded="false" />
-            <element signature="e#26845#26886#0" expanded="false" />
-            <element signature="e#28492#28533#0" expanded="false" />
-            <element signature="e#28667#28708#0" expanded="false" />
-            <element signature="e#28987#29028#0" expanded="false" />
+            <element signature="e#1249#1290#0" expanded="false" />
+            <element signature="e#1660#1701#0" expanded="false" />
+            <element signature="e#2334#2375#0" expanded="false" />
+            <element signature="e#2768#2784#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3502#3518#0" expanded="false" />
+            <element signature="e#3588#3604#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/exercises/Exercises.java">
+    <entry file="file://$PROJECT_DIR$/test/suite/JUnit4TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/DateTimeExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9825" max-vertical-offset="10845">
+          <caret line="739" column="0" selection-start-line="739" selection-start-column="0" selection-end-line="739" selection-end-column="0" />
+          <folding>
+            <element signature="e#1249#1290#0" expanded="false" />
+            <element signature="e#1660#1701#0" expanded="false" />
+            <element signature="e#2334#2375#0" expanded="false" />
+            <element signature="e#2768#2784#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3502#3518#0" expanded="false" />
+            <element signature="e#3588#3604#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/DateTimeExercises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="12285">
           <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
           <folding>
-            <element signature="e#2284#2325#0" expanded="false" />
-            <element signature="e#2791#2832#0" expanded="false" />
-            <element signature="e#3335#3376#0" expanded="false" />
-            <element signature="e#3887#3928#0" expanded="false" />
-            <element signature="e#4594#4635#0" expanded="false" />
-            <element signature="e#5366#5407#0" expanded="false" />
-            <element signature="e#5480#5521#0" expanded="false" />
-            <element signature="e#6058#6099#0" expanded="false" />
-            <element signature="e#6186#6227#0" expanded="false" />
-            <element signature="e#6670#6711#0" expanded="false" />
-            <element signature="e#6813#6854#0" expanded="false" />
-            <element signature="e#7219#7260#0" expanded="false" />
-            <element signature="e#7356#7397#0" expanded="false" />
-            <element signature="e#7814#7855#0" expanded="false" />
-            <element signature="e#7940#7981#0" expanded="false" />
-            <element signature="e#8628#8669#0" expanded="false" />
-            <element signature="e#9354#9395#0" expanded="false" />
-            <element signature="e#9490#9531#0" expanded="false" />
-            <element signature="e#10266#10307#0" expanded="false" />
-            <element signature="e#10378#10419#0" expanded="false" />
-            <element signature="e#12118#12159#0" expanded="false" />
-            <element signature="e#12803#12844#0" expanded="false" />
-            <element signature="e#13561#13602#0" expanded="false" />
-            <element signature="e#15077#15118#0" expanded="false" />
-            <element signature="e#15188#15229#0" expanded="false" />
-            <element signature="e#15728#15769#0" expanded="false" />
-            <element signature="e#15837#15878#0" expanded="false" />
-            <element signature="e#16556#16597#0" expanded="false" />
-            <element signature="e#16949#16990#0" expanded="false" />
-            <element signature="e#18025#18066#0" expanded="false" />
-            <element signature="e#19466#19507#0" expanded="false" />
-            <element signature="e#19614#19655#0" expanded="false" />
-            <element signature="e#20636#20677#0" expanded="false" />
-            <element signature="e#20821#20862#0" expanded="false" />
-            <element signature="e#22417#22458#0" expanded="false" />
-            <element signature="e#22665#22706#0" expanded="false" />
-            <element signature="e#23625#23666#0" expanded="false" />
-            <element signature="e#23841#23882#0" expanded="false" />
-            <element signature="e#26617#26658#0" expanded="false" />
-            <element signature="e#26845#26886#0" expanded="false" />
-            <element signature="e#28492#28533#0" expanded="false" />
-            <element signature="e#28667#28708#0" expanded="false" />
-            <element signature="e#28987#29028#0" expanded="false" />
+            <element signature="e#1249#1290#0" expanded="false" />
+            <element signature="e#1660#1701#0" expanded="false" />
+            <element signature="e#2334#2375#0" expanded="false" />
+            <element signature="e#2768#2784#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3502#3518#0" expanded="false" />
+            <element signature="e#3588#3604#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -746,62 +772,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/suite/JUnit4TestSuite.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/Instant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="18660">
+          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/exercises/Exercises.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="10455">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4128" max-vertical-offset="29100">
+          <caret line="384" column="36" selection-start-line="384" selection-start-column="36" selection-end-line="384" selection-end-column="36" />
           <folding>
-            <element signature="e#2284#2325#0" expanded="false" />
-            <element signature="e#2791#2832#0" expanded="false" />
-            <element signature="e#3335#3376#0" expanded="false" />
-            <element signature="e#3887#3928#0" expanded="false" />
-            <element signature="e#4594#4635#0" expanded="false" />
-            <element signature="e#5366#5407#0" expanded="false" />
-            <element signature="e#5480#5521#0" expanded="false" />
-            <element signature="e#6058#6099#0" expanded="false" />
-            <element signature="e#6186#6227#0" expanded="false" />
-            <element signature="e#6670#6711#0" expanded="false" />
-            <element signature="e#6813#6854#0" expanded="false" />
-            <element signature="e#7219#7260#0" expanded="false" />
-            <element signature="e#7356#7397#0" expanded="false" />
-            <element signature="e#7814#7855#0" expanded="false" />
-            <element signature="e#7940#7981#0" expanded="false" />
-            <element signature="e#8628#8669#0" expanded="false" />
-            <element signature="e#9354#9395#0" expanded="false" />
-            <element signature="e#9490#9531#0" expanded="false" />
-            <element signature="e#10266#10307#0" expanded="false" />
-            <element signature="e#10378#10419#0" expanded="false" />
-            <element signature="e#12118#12159#0" expanded="false" />
-            <element signature="e#12803#12844#0" expanded="false" />
-            <element signature="e#13561#13602#0" expanded="false" />
-            <element signature="e#15077#15118#0" expanded="false" />
-            <element signature="e#15188#15229#0" expanded="false" />
-            <element signature="e#15728#15769#0" expanded="false" />
-            <element signature="e#15837#15878#0" expanded="false" />
-            <element signature="e#16556#16597#0" expanded="false" />
-            <element signature="e#16949#16990#0" expanded="false" />
-            <element signature="e#18025#18066#0" expanded="false" />
-            <element signature="e#19466#19507#0" expanded="false" />
-            <element signature="e#19614#19655#0" expanded="false" />
-            <element signature="e#20636#20677#0" expanded="false" />
-            <element signature="e#20821#20862#0" expanded="false" />
-            <element signature="e#22417#22458#0" expanded="false" />
-            <element signature="e#22665#22706#0" expanded="false" />
-            <element signature="e#23625#23666#0" expanded="false" />
-            <element signature="e#23841#23882#0" expanded="false" />
-            <element signature="e#26617#26658#0" expanded="false" />
-            <element signature="e#26845#26886#0" expanded="false" />
-            <element signature="e#28492#28533#0" expanded="false" />
-            <element signature="e#28667#28708#0" expanded="false" />
-            <element signature="e#28987#29028#0" expanded="false" />
+            <element signature="e#15970#15971#0" expanded="false" />
+            <element signature="e#16038#16039#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/Duration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5343" max-vertical-offset="18225">
+          <caret line="132" column="19" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/suite/JUnit4TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="240">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/Period.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11508" max-vertical-offset="14520">
+          <caret line="892" column="29" selection-start-line="892" selection-start-column="29" selection-end-line="892" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/temporal/ChronoUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8686132" vertical-offset="1905" max-vertical-offset="3270">
+          <caret line="76" column="12" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/temporal/Temporal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="5820">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.272" vertical-offset="4773" max-vertical-offset="23610">
+          <caret line="418" column="55" selection-start-line="418" selection-start-column="55" selection-end-line="418" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/exercises/DateTimeExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="2640">
+          <caret line="91" column="7" selection-start-line="91" selection-start-column="7" selection-end-line="91" selection-end-column="7" />
+          <folding>
+            <element signature="e#1249#1290#0" expanded="false" />
+            <element signature="e#1660#1701#0" expanded="false" />
+            <element signature="e#2334#2375#0" expanded="false" />
+            <element signature="e#2768#2784#0" expanded="false" />
+            <element signature="e#3436#3437#0" expanded="true" />
+            <element signature="e#3480#3481#0" expanded="true" />
+            <element signature="e#3502#3518#0" expanded="false" />
+            <element signature="e#3588#3604#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatterBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="8425" max-vertical-offset="65235">
+          <caret line="685" column="36" selection-start-line="685" selection-start-column="36" selection-end-line="685" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/src.zip!/java/time/format/DateTimeFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="10491" max-vertical-offset="30825">
+          <caret line="808" column="27" selection-start-line="808" selection-start-column="27" selection-end-line="808" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/solutions/DateTimeExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5985401" vertical-offset="1254" max-vertical-offset="2895">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1262#1303#0" expanded="false" />
+            <element signature="e#1736#1777#0" expanded="false" />
+            <element signature="e#2813#2854#0" expanded="false" />
+            <element signature="e#3988#4004#0" expanded="false" />
+            <element signature="e#4074#4090#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -851,7 +932,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -871,7 +951,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>hamcrest-core-1.3</last-edited>
+          <last-edited>com.btmatthews.hamcrest:hamcrest-matchers:1.0.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
