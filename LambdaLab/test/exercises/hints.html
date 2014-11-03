@@ -65,59 +65,60 @@
 
 <body>
 	<h3>ex01_accumulateFirstLetters</h3>
-    Hint 1: <span class="hint">Use Collection.removeIf().</span>
-    
+    Hint 1: <span class="hint">Use Iterable.forEach().</span>    
     
  	<h3>ex02_removeOddLengthWords</h3>
-    Hint 1: <span class="hint">Use List.replaceAll().</span>
-
+    Hint 1: <span class="hint">Use Collection.removeIf().</span>	
+ 
     
  <h3>ex03_upcaseAllWords</h3>
-    Hint 1: <span class="hint">Use Map.forEach().</span>
-
+    Hint 1: <span class="hint">Use List.replaceAll().</span>
+ 
     
  <h3>ex04_stringifyMap</h3>
-    Hint 1: <span class="hint">Use Map.merge() within Iterable.forEach().</span>
-
+    Hint 1: <span class="hint">Use Map.forEach().</span>
+ 
     
  <h3>ex05_mapOfStringLengths</h3>
-    Hint 1: <span class="hint">Use filter() and map().</span>
-    <br>Hint 2: <span class="hint">Use collect() to create the result list.</span>
-
+    Hint 1: <span class="hint">Use Map.merge() within Iterable.forEach().</span>
+ 
 
  <h3>ex06_upcaseOddLengthWords</h3>
-    Hint 1: <span class="hint">Use Stream.skip() and Stream.limit().</span>
-    <br>Hint 2: <span class="hint">Use Collectors.joining().</span>
-
+    Hint 1: <span class="hint">Use filter() and map().</span>
+    <br>Hint 2: <span class="hint">Use collect() to create the result list.</span>
+ 
 
  <h3>ex07_joinStreamRange</h3>
-    Hint 1: <span class="hint">Use BufferedReader.lines() to get a stream of lines.</span>
-    <br>Hint 2: <span class="hint">Use Stream.count().</span>
-
+    Hint 1: <span class="hint">Use Stream.skip() and Stream.limit().</span>
+    <br>Hint 2: <span class="hint">Use Collectors.joining().</span>
+ 
 
  <h3>ex08_countLinesInFile()</h3>
-    Hint 1: <span class="hint">Use Stream.mapToInt() to convert to IntStream.</span>
-    <br>Hint 2: <span class="hint">Look at java.util.OptionalInt to get the result.</span>
-
+    Hint 1: <span class="hint">Use BufferedReader.lines() to get a stream of lines.</span>
+    <br>Hint 2: <span class="hint">Use Stream.count().</span>
+ 
 
  <h3>ex09_findLengthOfLongestLine</h3>
-    Hint 1: <span class="hint">Use Stream.max() with a Comparator.</span>
-    <br>Hint 2: <span class="hint">Use static methods on Comparator to help create a Comparator instance.</span>
-
+    Hint 1: <span class="hint">Use Stream.mapToInt() to convert to IntStream.</span>
+    <br>Hint 2: <span class="hint">Look at java.util.OptionalInt to get the result.</span>
+ 
 
  	<h3>ex10_findLongestLine</h3>
-    Hint 1: <span class="hint">Instead of a stream of words (Strings), run an IntStream of positions.</span>
+    Hint 1: <span class="hint">Use Stream.max() with a Comparator.</span>
+    <br>Hint 2: <span class="hint">Use static methods on Comparator to help create a Comparator instance.</span>
     
     
 	<h3>ex11_selectByLengthAndPosition</h3>
-    Hint 1: <span class="hint">Run an IntStream of list positions (indexes).</span>
-    <br>Hint 2: <span class="hint">Deal with boxed Integers either by casting or by using mapToObj().</span>
+    Hint 1: <span class="hint">Instead of a stream of words (Strings), run an IntStream of positions.</span>
     
 
  	<h3>ex12_listDifference</h3>
+    Hint 1: <span class="hint">Run an IntStream of list positions (indexes).</span>
+    <br>Hint 2: <span class="hint">Deal with boxed Integers either by casting or by using mapToObj().</span>
+    
+<h3>ex13_stringsToCharacters</h3>
     Hint 1: <span class="hint">Use Stream.flatMap().</span>
     <br>Hint 2: <span class="hint">Pay attention to the return type of String.chars() and boxing conversion.</span>
-    
 
  <h3>ex14_listOfAllWords</h3>
     Hint 1: <span class="hint">Use Stream.flatMap().</span>
