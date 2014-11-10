@@ -217,7 +217,7 @@ public class Exercises {
     @Test @Ignore
     public void ex11_selectByLengthAndPosition() {
         List<String> input = new ArrayList<>(Arrays.asList(
-            "alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel"));
+            "alfa", "bravo", "charlie", "delta", "alfa", "foxtrot", "golf", "hotel"));
         
         List<String> result = null; // TODO
         

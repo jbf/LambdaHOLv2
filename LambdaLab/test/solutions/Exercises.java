@@ -348,7 +348,7 @@ public class Exercises {
     @Test
     public void ex11_selectByLengthAndPosition() {
         List<String> input = new ArrayList<>(Arrays.asList(
-            "alfa", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel"));
+            "alfa", "bravo", "charlie", "delta", "alfa", "foxtrot", "golf", "hotel"));
         
         //UNCOMMENT//List<String> result = null; // TODO
         //BEGINREMOVE
